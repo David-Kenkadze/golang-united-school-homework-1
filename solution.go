@@ -6,8 +6,8 @@ import (
 	"fmt"
 )
 
-func GetMessage()  {
+func GetMessage()  string {
 	hello_world := emoji.Sprint("hello :world_map:")
-	fmt.Println(hello_world)
+	return hello_world
 	
 }
