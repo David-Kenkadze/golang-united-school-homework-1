@@ -6,8 +6,12 @@ import (
 	"fmt"
 )
 
+
 func GetMessage()  string {
 	hello_world := emoji.Sprint("hello :world_map:")
 	return hello_world
 	
+}
+func main (){
+	GetMessage()
 }
