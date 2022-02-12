@@ -7,8 +7,10 @@ import (
 )
 
 
-func GetMessage()  string {
-	hello_world := emoji.Sprint("hello :world_map:!")
-	return "hello_world"	
+func GetMessage() string {
+        hello_message := emoji.Sprint("hello :world_map:!")
+        fmt.Println(hello_message)
+        return "hello-message"
 }
+
 
